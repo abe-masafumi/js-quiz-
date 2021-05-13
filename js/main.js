@@ -1,7 +1,5 @@
 'use strict';
 {
-  let memoryTime;
-
   let startTime;
   let timeoutId;
   function countUp() {
@@ -40,7 +38,6 @@
       this.gamestart.addEventListener('click', () => {
         this.op.classList.add('none');
       });
-
 
       this.count = 0;
       this.start.addEventListener('click', () => {
@@ -172,7 +169,7 @@
       this.anser3 = document.getElementById('anser3');
 
       this.colectcout = 0;
-      this.randomcount = 0;
+      // this.randomcount = 0;
 
       $('[id^=anser]').on('click', function (e) {
         $('[id^=anser]').addClass("smoke");
