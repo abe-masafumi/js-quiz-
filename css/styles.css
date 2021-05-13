@@ -1,0 +1,206 @@
+body {
+  text-align: center;
+  background-image: url("../img/ゲート２.jpeg");
+  background-position: center;
+  background: cover;
+  background-size: cover;
+}
+
+.opning {
+  font-size: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(16, 37, 16, 0.5);
+  z-index: 5;
+}
+
+.opning div {
+  margin: 80px auto;
+  background: honeydew;
+  width: 700px;
+  border: 4px solid rgb(4, 34, 4);
+  border-radius: 40px;
+}
+
+#gamestart {
+  background: green;
+}
+
+.v {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 80px auto;
+  background: honeydew;
+  width: 700px;
+  border: 4px solid rgb(4, 34, 4);
+  border-radius: 40px;
+
+}
+
+
+
+#footer {
+  display: flex;
+  margin: auto;
+  width: 1660px;
+  line-height: 50px;
+}
+
+#mask {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#seikai {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 60px;
+  left: 765px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+#seikaitext {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 790px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+}
+
+.none {
+  display: none;
+  pointer-events: none;
+}
+
+#footer p, option {
+  background: orange;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin: 50px;
+  font-size: 20px;
+  width: 2000px;
+  height: 50px;
+
+}
+
+h1 {
+  background: pink;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+#imgplace {
+  /* background: pink; */
+  width: 1660px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.smoke {
+  opacity: 0.5;
+  user-select: none;
+  pointer-events: none;
+}
+
+#batu, #maru {
+  position: absolute;
+  top: 200px;
+  left: 555px;
+  width: 550px;
+  height: 550px;
+  text-align: center;
+  object-fit: cover;
+  /* z-index: ; */
+}
+
+ul {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+ul li {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+ul li p {
+  color: white;
+  text-align: center;
+}
+
+ul li img {
+  /* width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%; */
+  width: 424px;
+  height: 322px;
+  max-width: 314%;
+  max-height: 337%;
+}
+
+.container {
+  position: relative;
+}
+
+.left {
+  background-image: url("../img/壁.jpeg");
+  position: absolute;
+  /* background: orange; */
+  top: 0px;
+  left: 0px;
+  width: 700px;
+  height: 700px;
+  animation: width 10s ease-in 1s forwards alternate;
+}
+
+.right {
+  background-image: url("../img/壁.jpeg");
+  position: absolute;
+  /* background: orange; */
+  top: 0px;
+  right: 0px;
+  width: 700px;
+  height: 700px;
+  animation: width 10s ease-in 1s forwards alternate;
+}
+
+@keyframes width {
+  0% {width: 700px;}
+  20% {width: 700px;}
+  25% {width: 600px;}
+  26% {width: 620px;}
+  27% {width: 600px;}
+  40% {width: 600px;}
+  45% {width: 500px;}
+  46% {width: 520px;}
+  47% {width: 500px;}
+  60% {width: 500px;}
+  65% {width: 400px;}
+  66% {width: 420px;}
+  67% {width: 400px;}
+  80% {width: 400px;}
+  100% {width: 100px;}
+}
