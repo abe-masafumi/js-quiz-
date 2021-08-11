@@ -1,7 +1,7 @@
 <img src="home.png">
 
 * クイズ（競馬）
-* 
+
 # kadai  
 -  quiz  
 -  2021/5/14  
